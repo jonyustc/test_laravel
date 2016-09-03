@@ -16,7 +16,7 @@ Route::get('/about','pagesController@about');
 Route::get('/about/{name}','pagesController@about');
 Route::get('/test','pagesController@test');
 
-Route::get('/posts/{name?}',function($name='jony'){
+Route::get('/posts/{name?}',function($name='rony'){
 	return "Post name is " . $name;
 });
 
